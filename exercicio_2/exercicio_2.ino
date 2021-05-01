@@ -28,8 +28,8 @@ void setup() {
   /* Inicializa e configura os LEDS */
   pinMode(LED_PIN_BLUE, OUTPUT);
   digitalWrite(LED_PIN_BLUE, LOW);
-  pinMode(LED_PIN_BLUE, OUTPUT);
-  digitalWrite(LED_PIN_BLUE, LOW);
+  pinMode(LED_PIN_RED, OUTPUT);
+  digitalWrite(LED_PIN_RED, LOW);
 
   // Espera pro serial conectar.
   while (!Serial) {
